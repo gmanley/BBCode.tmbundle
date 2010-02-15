@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>BBCode</string>
+	<key>ordering</key>
+	<array>
+		<string>978A5E3B-4038-4098-9142-17853EB8EEEB</string>
+		<string>454EE970-0520-4218-9DEA-78E5353AFE15</string>
+		<string>32FCE0AA-007D-457D-A01A-F34A0F288AB0</string>
+		<string>E5AF2622-9634-430F-86B8-57CF6F0184E3</string>
+		<string>5A4686D1-D167-4E04-837A-0C8BFC80A6A2</string>
+		<string>C1C68CAC-C820-4B91-AA9A-8392DA4B06D8</string>
+		<string>57051E78-12DF-4C2B-A9C7-2C844B87E3C4</string>
+		<string>F36798B2-6454-4CA3-9560-2DCC3169CE99</string>
+	</array>
+	<key>uuid</key>
+	<string>612678C2-0244-41AF-80F0-55D6300A4623</string>
+</dict>
+</plist>
