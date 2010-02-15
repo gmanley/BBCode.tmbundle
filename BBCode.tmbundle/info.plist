@@ -4,6 +4,54 @@
 <dict>
 	<key>name</key>
 	<string>BBCode</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>BCD29E56-6729-4889-8548-860D5201BC06</string>
+			<string>E28914FA-A488-4BE5-B204-C589A68D0906</string>
+			<string>F9DE7956-7B53-4FD5-BCDB-AA8D466D82FF</string>
+			<string>57051E78-12DF-4C2B-A9C7-2C844B87E3C4</string>
+		</array>
+		<key>submenus</key>
+		<dict>
+			<key>BCD29E56-6729-4889-8548-860D5201BC06</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>978A5E3B-4038-4098-9142-17853EB8EEEB</string>
+					<string>454EE970-0520-4218-9DEA-78E5353AFE15</string>
+					<string>32FCE0AA-007D-457D-A01A-F34A0F288AB0</string>
+					<string>E5AF2622-9634-430F-86B8-57CF6F0184E3</string>
+					<string>9E79A207-BCFB-4F9D-8175-DA9ABB24AA0D</string>
+					<string>23CBE402-8FF1-470B-BCBB-2971E86E7A30</string>
+				</array>
+				<key>name</key>
+				<string>Format</string>
+			</dict>
+			<key>E28914FA-A488-4BE5-B204-C589A68D0906</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>DBC5B951-45C2-489B-A351-5F12AA0E6EF6</string>
+					<string>5201E8FD-C40D-404A-9362-3E5B183F40AA</string>
+					<string>7700394E-968C-4043-AA9E-A7982B067C96</string>
+				</array>
+				<key>name</key>
+				<string>Lists</string>
+			</dict>
+			<key>F9DE7956-7B53-4FD5-BCDB-AA8D466D82FF</key>
+			<dict>
+				<key>items</key>
+				<array>
+					<string>5A4686D1-D167-4E04-837A-0C8BFC80A6A2</string>
+					<string>C1C68CAC-C820-4B91-AA9A-8392DA4B06D8</string>
+				</array>
+				<key>name</key>
+				<string>Insert Tag</string>
+			</dict>
+		</dict>
+	</dict>
 	<key>ordering</key>
 	<array>
 		<string>978A5E3B-4038-4098-9142-17853EB8EEEB</string>

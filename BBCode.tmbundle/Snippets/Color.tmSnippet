@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[quote=$1]${2:$TM_SELECTED_TEXT}[/quote]</string>
+	<string>[color="${2:red}"]${1:$TM_SELECTED_TEXT}[/color]</string>
 	<key>keyEquivalent</key>
-	<string>~@q</string>
+	<string>@C</string>
 	<key>name</key>
-	<string>Quote</string>
+	<string>Color</string>
 	<key>scope</key>
 	<string>text.bbcode</string>
-	<key>tabTrigger</key>
-	<string>quote</string>
 	<key>uuid</key>
-	<string>32FCE0AA-007D-457D-A01A-F34A0F288AB0</string>
+	<string>23CBE402-8FF1-470B-BCBB-2971E86E7A30</string>
 </dict>
 </plist>
