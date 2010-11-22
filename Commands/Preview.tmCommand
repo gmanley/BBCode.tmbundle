@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>#!/usr/bin/env ruby
+begin
+  require 'rubygems'
+  require 'rubb'
+rescue LoadError
+  require ENV['TM_BUNDLE_SUPPORT'] + "/lib/rubb"
+end
+require ENV['TM_SUPPORT_PATH'] + "/lib/tm/htmloutput"
+
+contents = []
+$stdin.each_line { |line| contents &lt;&lt; line }
+
+output = RuBB.to_html(contents.join())
+
+TextMate::HTMLOutput.show(:title =&gt; "BBCode Preview", :sub_title =&gt; ENV['TM_FILENAME']) do |io|
+  io &lt;&lt; output
+end</string>
+	<key>input</key>
+	<string>document</string>
+	<key>keyEquivalent</key>
+	<string>^~@p</string>
+	<key>name</key>
+	<string>Preview</string>
+	<key>output</key>
+	<string>showAsHTML</string>
+	<key>scope</key>
+	<string>text.html.bbcode</string>
+	<key>uuid</key>
+	<string>7090E978-C66D-40A5-A670-ADF6512F0662</string>
+</dict>
+</plist>

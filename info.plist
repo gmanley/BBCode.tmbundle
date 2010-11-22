@@ -2,12 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>name</key>
-	<string>BBCode</string>
-	<key>contactName</key>
-	<string>Michael Dippery</string>
-	<key>contactEmailRot13</key>
-	<string>zqvccrel@tznvy.pbz</string>
+	<key>Authors</key>
+	<string>Ryan Bates, Michael Dippery &amp; Grayson Manley</string>
 	<key>description</key>
 	<string>BBCode is the markup language used on many popular web forums.</string>
 	<key>mainMenu</key>
@@ -58,8 +54,11 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>name</key>
+	<string>BBCode</string>
 	<key>ordering</key>
 	<array>
+		<string>7090E978-C66D-40A5-A670-ADF6512F0662</string>
 		<string>978A5E3B-4038-4098-9142-17853EB8EEEB</string>
 		<string>454EE970-0520-4218-9DEA-78E5353AFE15</string>
 		<string>32FCE0AA-007D-457D-A01A-F34A0F288AB0</string>
@@ -68,6 +67,11 @@
 		<string>C1C68CAC-C820-4B91-AA9A-8392DA4B06D8</string>
 		<string>57051E78-12DF-4C2B-A9C7-2C844B87E3C4</string>
 		<string>F36798B2-6454-4CA3-9560-2DCC3169CE99</string>
+		<string>23CBE402-8FF1-470B-BCBB-2971E86E7A30</string>
+		<string>5201E8FD-C40D-404A-9362-3E5B183F40AA</string>
+		<string>7700394E-968C-4043-AA9E-A7982B067C96</string>
+		<string>9E79A207-BCFB-4F9D-8175-DA9ABB24AA0D</string>
+		<string>DBC5B951-45C2-489B-A351-5F12AA0E6EF6</string>
 	</array>
 	<key>uuid</key>
 	<string>6D140ECB-F83E-4357-AA63-8130CA1AB67A</string>

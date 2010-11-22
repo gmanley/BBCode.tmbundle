@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>fileTypes</key>
@@ -319,7 +319,7 @@
 		</dict>
 	</array>
 	<key>scopeName</key>
-	<string>text.bbcode</string>
+	<string>text.html.bbcode</string>
 	<key>uuid</key>
 	<string>F36798B2-6454-4CA3-9560-2DCC3169CE99</string>
 </dict>
